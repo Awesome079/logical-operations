@@ -1,6 +1,8 @@
 body{
     background-color: white;
     text-align: center;
+    margin: 0;
+    padding: 0;
     /* overflow: hidden; */
 }
 
@@ -20,8 +22,6 @@ grid-template-areas: "header header header header"
 "footer footer footer footer"
 ;
 }
-
-
 .grid-container > *{
     /* padding: 10px; */
     /* margin: 20px; */
@@ -272,7 +272,7 @@ section2{
     grid-area: section2;
 }
 .boots{
-    background-color: rgb(127,192,39);
+    background-color: rgb(63, 139, 63);
     display: flex;
     height: 22cm;
 }
@@ -286,8 +286,9 @@ section2{
     width: 100%;
     height: 50%;
     border-bottom: 1px solid black;
-    margin-top: 30px;
+    /* margin-top: 30px; */
     padding: 20px 0px;
+    background-color: #7fc027;
 
 }
 
@@ -332,7 +333,7 @@ section2{
 }
 
 .boots301{
-    background-color: rgb(127,192,39);
+    /* background-color: rgb(127,192,39); */
     width: 32%;
     padding-top: 4cm;
 
@@ -433,7 +434,7 @@ section3{
     height: 30.3%;
     border-bottom: 1px solid black;
     margin-top: 30px;
-    padding: 20px 
+    /* padding: 20px  */
 
 }
 
@@ -472,83 +473,94 @@ section4{
 }
 .army{
     background-color:rgb(0,157,220);
+    /* height: 20cm; */
 }
 
-.army101{
+.army100{
     display: flex;
-    height: 18cm;
-}
-.army200{
-    width: 30%;
-    background-color:rgb(0,157,220) ; 
-    
+    justify-content: space-between;
+    height: 13cm;
+
 }
 
-.army201{
-    width: 100%;
-    height: 45%;
+.army103{
+    height: 50%;
     border-bottom: 1px solid black;
-    margin-top: 60px;
-    padding: 20px 0px;
     border-right: 1px solid black;
 }
 
+
+.army104{
+    height: 50%;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.army101 img{
+    padding-top: 2.5cm;
+
+}
+.army201{
+    height: 50%;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+
+
 .army202{
-    width: 100%;
-    height: 45%;
+    height: 50%;
     border-bottom: 1px solid black;
-    margin-top: 30px;
-    padding: 20px 0px;
+    border-right: 1px solid black;
 }
 
-.army301{
-    width: 30%;
-    background-color:rgb(0,157,220); 
-    
+.army101{
+    width: 50%;
+    height: 100px;
+    background-color: blue;
+    display: flex;
 }
 
-.army302{
-    width: 100%;
-    height: 45%;
-    border-bottom: 1px solid black;
-    margin-top: 60px;
-    padding: 20px 0px;
-    /* margin-bottom: 20px; */
+.army102{
+    height: 13cm;
+    width: 50%;
+    background-color: rgb(0,157,220);
 }
 
-.army303{
-    width: 100%;
-    height: 45%;
-    border-left: 1px solid black;
-    /* margin-top: 30px; */
-    padding: 5px 10px;
-    /* margin-bottom: 20px; */
+.army200{
+    height: 13cm;
+    width: 50%;
+    background-color: rgb(0,157,220);
 }
 
 .army400{
-    width: 40%;
+    width: 50%;
+    height: 13cm;
     background-color: rgb(0,157,220);
-    padding-top: 6cm;
 }
 
-.army400 :nth-child(1){
+.army400 h4{
     color: white;
-    font-size: 26px;
-    font-weight: lighter;
-    margin-right: 4cm;
+    font-size: 30px;
+    margin-top: 5cm;
+    margin-right: 5cm;
+
 }
 
-.army400 :nth-child(2){
+.army400 h1{
     color: white;
-    font-size: 40px;
+    font-size: 2cm;
     font-weight: bolder;
-    margin-right: 3cm;
+
 }
 
-.army400 :nth-child(3){
-    font-weight: lighter;
-    margin-right: 6cm;
+.army400 p{
+    color: black;
+    font-size: 18px;
+    margin-right: 9cm;
+
 }
+
+
 
 section5{
     grid-area: section5;
@@ -563,7 +575,7 @@ section5{
     width: 100%;
     justify-content: space-between;
     background-color: rgb(255,196,39);
-    padding-top: 2cm;
+    /* padding-top: 2cm; */
 
 }
 
@@ -641,4 +653,74 @@ footer{
 .chris400 p{
     color: rgb(152,152,152);
 }
+
+
+.fire300:hover{
+    margin-left: 1cm;
+    /* background-color: gray; */
+}
+
+.fire100{
+    background-color: #00658C;
+}
+
+.fire400:hover{
+    margin-left: 1cm;
+}
+
+.fire500:hover{
+    margin-left: 1cm;
+}
+
+.boots102:hover{
+    transform-style: preserve-3d;
+    transform: rotateX(10deg) rotateY(-39deg) translateZ(-61px) translateX(-50px) translateY(-11px);
+    transform-origin: left;
+    transition: 1s;
+    border-right: 8px solid#7fc027;
+
+}
+
+.army-one:hover{
+    margin-right: 1cm;
+    height: 10px;
+}
+
+.army102{
+    background-color: rebeccapurple;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
