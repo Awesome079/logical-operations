@@ -1,0 +1,644 @@
+body{
+    background-color: white;
+    text-align: center;
+    /* overflow: hidden; */
+}
+
+.grid-container{
+display: grid;
+margin: 0 auto;
+/* grid-template-columns: repeat(4, 25%); */
+grid-auto-rows: minmax(00px, auto);
+grid-template-areas: "header header header header"
+"main main main main"
+"section section section section"
+"section1 section1 section1 section1"
+"section2 section2 section2 section2"
+"section3 section3 section3 section3"
+"section4 section4 section4 section4"
+"section5 section5 section5 section5"
+"footer footer footer footer"
+;
+}
+
+
+.grid-container > *{
+    /* padding: 10px; */
+    /* margin: 20px; */
+    background-color: yellow;
+}
+
+
+header{
+    grid-area: header;
+}
+.vicky{
+    background-color: rgba(7, 13, 25, 0.89);
+    border-bottom: 1px solid grey;
+    position: fixed;
+    width: 100%;
+}
+
+.vicky101{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.vicky102{
+    display: flex;
+    margin-left: 70px;
+}
+
+.vicky102 img{
+    width: 45px;
+    height: 45px;
+    border-radius: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.vicky201{
+    display: flex;
+    gap: 30px;
+    margin-right: 100px;
+}
+
+.vicky201 img{
+    width: 30px;
+    height: 30px;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+
+.vicky201 h3{
+    color: black;
+    cursor: pointer;
+}
+.vicky201 h2{
+    cursor: pointer;
+}
+
+.vicky201 button{
+    cursor: pointer;
+    background-color: rgb(255,196,39);
+    color: white;
+    border: 1px solid rgb(255,196,39);
+    /* padding: 3px; */
+    border-radius:2px;
+    margin-right: 10px;
+}
+main{
+    grid-area: main;
+}
+.blessing{
+    background-color: green;
+    background: url(./homepage-background.png);
+    /* margin-top: 50px; */
+    
+
+}
+
+.blessing101{
+    display: flex;
+    gap: 50px;
+}
+
+.blessing201 h1{
+    font-size: 50px;
+    color: white;
+    margin-top: 100px;
+
+}
+
+.blessing201 h3{
+    font-size: 25px;
+    color: white;
+    margin-top: 10px;
+
+}
+
+.blessing100{
+    display: flex;
+    gap: 20px;
+}
+
+.blessing100 button{
+    cursor: pointer;
+    background-color: rgb(0,157,220);
+    color: white;
+    border: 1px solid rgb(0,157,220);
+    padding: 10px;
+    gap: 5px;
+    border-radius:5px;
+    font-size: 15px;
+
+}
+
+.blessing100 :nth-child(1){
+    cursor: pointer;
+    background-color:  rgb(238,56,49) ;
+    color: white;
+    border: 1px solid  rgb(238,56,49);
+    padding: 10px;
+    gap: 5px;
+    border-radius:5px;
+    font-size: 15px;
+    margin-left: 100px;
+
+}
+
+
+.blessing301{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+
+section{
+    grid-area: section;
+}
+.glo{
+    background-color: rgb(36,36,36);
+    
+}
+
+.glo101{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    background-color: rgb(36,36,36);
+    cursor: pointer;
+}
+
+.glo201{
+    display: flex;
+    gap: 30px;
+    /* margin-bottom: 50px; */
+    padding-left: 20px;
+    border-right: 1px solid white;
+    padding: 30px;
+} 
+
+.glo202{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 50px;
+    padding-right: 30px;
+    
+    
+}
+
+.glo201 img{
+    height: 80px;
+    width: 220px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.glo202 img{
+    height: 80px;
+    width: 220px;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+.glo300 h2{
+    font-size: 30px;
+}
+
+.glo400 h2{
+    font-size: 30px;
+}
+
+.glo300 h5{
+    font-size: large;
+}
+
+.glo400 h5{
+    font-size: large;
+}
+
+
+
+section1{
+    grid-area: section1;
+}
+.fire{
+    background-color: rgb(0,157,220);
+    color: white;
+    cursor: pointer;
+}
+
+.fire100{
+    display: grid;
+    max-width: 100%;
+    /* margin: 0 auto; */
+    /* padding: 20px; */
+    grid-template-columns: repeat(4, 1fr);
+
+}
+
+.fire200{
+    background-color: rgb(0,157,220);
+    /* margin-top: 20px; */
+    border-right: 1px solid black;
+    padding-right: 30px;
+}
+
+.fire300{
+    background-color: rgb(0,157,220);
+    /* margin-top: 20px; */
+    border-right: 1px solid black;
+    padding-top: 20px;
+}
+
+.fire400{
+    background-color: rgb(0,157,220);
+    /* margin-top: 20px; */
+    border-right: 1px solid black;
+    padding-top: 20px;
+}
+
+.fire500{
+    background-color: rgb(0,157,220);
+    /* margin-top: 20px; */
+    padding-top: 20px;
+    
+}
+
+
+section2{
+    grid-area: section2;
+}
+.boots{
+    background-color: rgb(127,192,39);
+    display: flex;
+    height: 22cm;
+}
+
+.boots101{
+    width: 32%; 
+    
+}
+
+.boots102{
+    width: 100%;
+    height: 50%;
+    border-bottom: 1px solid black;
+    margin-top: 30px;
+    padding: 20px 0px;
+
+}
+
+.boots102 h1{
+    color: white;
+}
+
+.boots103{
+    margin-top: 60px;
+}
+
+.boots103 h2{
+    color: white;
+}
+.boots201{
+    background-color: rgb(127,192,39);
+    width: 36%;
+    /* margin-top: 50px; */
+    padding-top: 10cm;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+
+.boots201 :nth-child(1){
+    color: white;
+    font-weight: lighter;
+    font-size: 60px;
+}
+
+.boots201 :nth-child(2){
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 0;
+}
+
+
+.boots201 :nth-child(3){
+    color: black;
+    font-weight: lighter;
+    font-size: 30px;
+}
+
+.boots301{
+    background-color: rgb(127,192,39);
+    width: 32%;
+    padding-top: 4cm;
+
+}
+
+.boots302 h3{
+    color: white;
+    font-size: 22px;
+
+
+}
+.boots302{
+    width: 100%;
+    height: 50%;
+    border-bottom: 1px solid black;
+}
+
+.boots303{
+    padding-top: 2cm;
+}
+
+.boots303 h5{
+    color: white;
+    font-size: 30px;
+}
+
+section3{
+    grid-area: section3;
+}
+.get{
+    background-color: rgb(151,33,105);
+    /* display: flex; */
+    /* height: 22cm; */
+    
+}
+
+.get100{
+    display: flex;
+    height: 18cm;
+    border-bottom: 1px solid black;
+
+}
+
+.get302 img{
+    width: 140px;
+    height: 160px;
+    /* gap: 10px; */
+    padding: 20px;
+}
+
+.get101{
+    width: 50%;
+    background-color: rgb(151,33,105);
+    border-right: 1px solid black;
+    
+}
+
+.get102{
+    width: 100%;
+    height: 50%;
+    border-bottom: 1px solid black;
+    margin-top: 30px;
+    padding: 20px 0px;
+    
+}
+
+.get102 p{
+    color: white;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.get102 h1{
+    color: white;
+    font-size: 60px;
+    font-weight: bolder;
+}
+.get201{
+    margin-top: 60px;
+}
+
+.get201 p{
+    color: white;
+    font-size: 40px;
+    font-weight: lighter;
+    padding-top: 2cm;
+}
+
+.get301{
+    width: 50%;
+    background-color: rgb(151,33,105);
+    border-bottom: 1px solid black;
+}
+
+.get302{
+    display: flex;
+    width: 100%;
+    height: 30.3%;
+    border-bottom: 1px solid black;
+    margin-top: 30px;
+    padding: 20px 
+
+}
+
+.get303{
+    width: 100%;
+    height: 30.3%;
+    border-bottom: 1px solid black;
+}
+.get305 h1{
+    color: white;
+    font-size: 35px;
+}
+
+.get305 p{
+    color: white;
+    margin-right: 7cm;
+}
+
+.get303 p{
+    color: white;
+    padding: 3cm;
+    font-size: 33px;
+    margin-right: 8cm;
+
+}
+
+.get304 p{
+    color: white;
+    padding: 2cm;
+    font-size: 33px;
+    margin-right: 8cm;
+}
+
+section4{
+    grid-area: section4;
+}
+.army{
+    background-color:rgb(0,157,220);
+}
+
+.army101{
+    display: flex;
+    height: 18cm;
+}
+.army200{
+    width: 30%;
+    background-color:rgb(0,157,220) ; 
+    
+}
+
+.army201{
+    width: 100%;
+    height: 45%;
+    border-bottom: 1px solid black;
+    margin-top: 60px;
+    padding: 20px 0px;
+    border-right: 1px solid black;
+}
+
+.army202{
+    width: 100%;
+    height: 45%;
+    border-bottom: 1px solid black;
+    margin-top: 30px;
+    padding: 20px 0px;
+}
+
+.army301{
+    width: 30%;
+    background-color:rgb(0,157,220); 
+    
+}
+
+.army302{
+    width: 100%;
+    height: 45%;
+    border-bottom: 1px solid black;
+    margin-top: 60px;
+    padding: 20px 0px;
+    /* margin-bottom: 20px; */
+}
+
+.army303{
+    width: 100%;
+    height: 45%;
+    border-left: 1px solid black;
+    /* margin-top: 30px; */
+    padding: 5px 10px;
+    /* margin-bottom: 20px; */
+}
+
+.army400{
+    width: 40%;
+    background-color: rgb(0,157,220);
+    padding-top: 6cm;
+}
+
+.army400 :nth-child(1){
+    color: white;
+    font-size: 26px;
+    font-weight: lighter;
+    margin-right: 4cm;
+}
+
+.army400 :nth-child(2){
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-right: 3cm;
+}
+
+.army400 :nth-child(3){
+    font-weight: lighter;
+    margin-right: 6cm;
+}
+
+section5{
+    grid-area: section5;
+}
+.hope{
+    background-color: purple;
+}
+
+.hope100{
+    display: flex;
+    height: 7cm;
+    width: 100%;
+    justify-content: space-between;
+    background-color: rgb(255,196,39);
+    padding-top: 2cm;
+
+}
+
+.hope201 img{
+    width: 100px;
+    padding: 1.5cm;
+}
+
+.hope101{
+    width: 70%;
+    border-right: 1px solid black;  
+    display: flex;
+    justify-content: space-around;
+}
+
+.hope101 h1{
+    color: white;
+    font-size: 55px;
+}
+
+
+.hope101 h2{
+    color: white;
+    font-size: 21px;
+    padding-top: 20px;
+}
+
+
+
+footer{
+    grid-area: footer;
+}
+.chris{
+    background-color: rgb(6,6,6);
+}
+
+.chris100{
+    display: flex;
+    height: 5cm;
+    justify-content: space-between;
+}
+
+.chris100 img{
+    width: 30px;
+    height: 30px;
+    padding-top: 27px;
+}
+
+.chris101{
+    display: flex;
+    gap: 10px;
+    margin-left: 2cm;
+}
+
+.chris201{
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.chris300{
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+
+.chris400 p{
+    margin-right: 3cm;
+}
+
+.chris100 h5{
+    font-size: larger;
+    color: rgb(152,152,152);
+}
+
+.chris400 p{
+    color: rgb(152,152,152);
+}
+
