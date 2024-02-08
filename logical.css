@@ -94,6 +94,7 @@ main{
     background-color: green;
     background: url(./homepage-background.png);
     /* margin-top: 50px; */
+    padding-top: 1cm;
     
 
 }
@@ -552,7 +553,7 @@ section4{
     grid-area: section4;
 }
 .army{
-    background-color:rgb(0,157,220);
+    background-color: green;
     /* height: 20cm; */
 }
 
@@ -564,16 +565,19 @@ section4{
 }
 
 .army103{
-    height: 50%;
+    height: 6.5cm;
     border-bottom: 1px solid black;
     border-right: 1px solid black;
+    background-color: rgb(0,157,220);
 }
 
 
 .army104{
     height: 50%;
+    border-top: 1px solid black;
     border-bottom: 1px solid black;
     border-right: 1px solid black;
+    background-color: rgb(0,157,220);
 }
 
 .army101 img{
@@ -584,6 +588,7 @@ section4{
     height: 50%;
     border-bottom: 1px solid black;
     border-right: 1px solid black;
+    background-color: rgb(0,157,220);
 }
 
 
@@ -591,6 +596,8 @@ section4{
     height: 50%;
     border-bottom: 1px solid black;
     border-right: 1px solid black;
+    background-color: rgb(0,157,220); 
+
 }
 
 .army101{
@@ -606,15 +613,19 @@ section4{
     background-color: rgb(0,157,220);
 }
 
+
 .army200{
     height: 13cm;
     width: 50%;
-    background-color: rgb(0,157,220);
+    background-color: rebeccapurple;
 }
+
+
 
 .army400{
     width: 50%;
     height: 13cm;
+    /* background-color: red; */
     background-color: rgb(0,157,220);
 }
 
@@ -640,7 +651,40 @@ section4{
 
 }
 
+.army103:hover{
+    margin-right: 1cm;
+    height: 7cm;
+    margin-bottom: 0.5cm;
+    cursor: pointer;
 
+}
+
+.army104:hover{
+    margin-right: 1cm;
+    height: 7cm;
+    margin-top: 0.5cm;
+    cursor: pointer;
+
+}
+
+.army102{
+    background-color: rebeccapurple;
+}
+
+.army201:hover{
+    margin-left: 1cm;
+    height: 7cm;
+    margin-bottom: 0.5cm;
+    cursor: pointer;
+
+}
+
+.army202:hover{
+    margin-left: 1cm;
+    height: 7cm;
+    margin-top: 0.5cm;
+    cursor: pointer;
+}
 
 section5{
     grid-area: section5;
@@ -719,12 +763,10 @@ footer{
 
 .chris201{
     display: flex;
-    /* justify-content: space-between; */
 }
 
 .chris300{
     display: flex;
-    /* justify-content: space-between; */
 }
 
 
@@ -739,16 +781,6 @@ footer{
 
 .chris400 p{
     color: rgb(152,152,152);
-}
-
-
-.army-one:hover{
-    margin-right: 1cm;
-    height: 10px;
-}
-
-.army102{
-    background-color: rebeccapurple;
 }
 
 
