@@ -267,6 +267,22 @@ section1{
     
 }
 
+.fire300:hover{
+    margin-left: 1cm;
+}
+
+.fire100{
+    background-color: #00658C;
+}
+
+.fire400:hover{
+    margin-left: 1cm;
+}
+
+.fire500:hover{
+    margin-left: 1cm;
+}
+
 
 section2{
     grid-area: section2;
@@ -297,7 +313,12 @@ section2{
 }
 
 .boots103{
-    margin-top: 60px;
+    /* margin-top: 60px; */
+    background-color: #7fc027;
+    height: 50%;
+    width: 100%;
+    padding: 20px 0px;
+    
 }
 
 .boots103 h2{
@@ -335,29 +356,88 @@ section2{
 .boots301{
     /* background-color: rgb(127,192,39); */
     width: 32%;
-    padding-top: 4cm;
+    /* padding-top: 4cm; */
 
 }
 
 .boots302 h3{
     color: white;
     font-size: 22px;
-
-
 }
+
+.boots102 img{
+    margin-top: 4cm;
+}
+
+.boots103 img{
+    margin-top: 2cm;
+}
+
+.boots302 img{
+    margin-top: 4cm;
+}
+
+.boots303 img{
+    margin-top: 1.5cm;
+}
+
+
 .boots302{
     width: 100%;
     height: 50%;
     border-bottom: 1px solid black;
+    background-color: #7fc027;
+    padding: 20px 0;
 }
 
 .boots303{
     padding-top: 2cm;
+    background-color: #7fc027;
+    height: 50%;
 }
 
 .boots303 h5{
     color: white;
     font-size: 30px;
+}
+
+
+.boots102:hover{
+    transform-style: preserve-3d;
+    transform: rotateX(8deg) rotateY(-39deg) translateZ(-61px) translateX(-50px) translateY(-11px);
+    transform-origin: left;
+    transition: 1s;
+    border-right: 8px solid#7fc027;
+
+}
+
+.boots103:hover{
+    transform-style: preserve-3d;
+    transform: rotateX(8deg) rotateY(-39deg) translateZ(-61px) translateX(-50px) translateY(-11px);
+    transform-origin: left;
+    transition: 1s;
+    border-right: 8px solid#7fc027;
+
+}
+
+
+.boots302:hover{
+    transform-style: preserve-3d;
+    transform: rotateX(-8deg) rotateY(39deg) translateZ(61px) translateX(50px) translateY(11px);
+    transform-origin: right;
+    transition: 1s;
+    border-right: 8px solid#7fc027;
+
+}
+
+
+.boots303:hover{
+    transform-style: preserve-3d;
+    transform: rotateX(-8deg) rotateY(39deg) translateZ(61px) translateX(50px) translateY(11px);
+    transform-origin: right;
+    transition: 1s;
+    border-right: 8px solid#7fc027;
+
 }
 
 section3{
@@ -574,7 +654,7 @@ section5{
     height: 7cm;
     width: 100%;
     justify-content: space-between;
-    background-color: rgb(255,196,39);
+    background-color: #5c460b;
     /* padding-top: 2cm; */
 
 }
@@ -589,6 +669,7 @@ section5{
     border-right: 1px solid black;  
     display: flex;
     justify-content: space-around;
+    background-color: rgb(255,196,39)
 }
 
 .hope101 h1{
@@ -596,14 +677,20 @@ section5{
     font-size: 55px;
 }
 
-
 .hope101 h2{
     color: white;
     font-size: 21px;
     padding-top: 20px;
 }
 
-
+.hope201{
+    background-color: rgb(255,196,39);
+    width: 30%;
+}
+.hope201:hover{
+    margin-left: 1cm;
+    cursor: grab;
+}
 
 footer{
     grid-area: footer;
@@ -654,32 +741,6 @@ footer{
     color: rgb(152,152,152);
 }
 
-
-.fire300:hover{
-    margin-left: 1cm;
-    /* background-color: gray; */
-}
-
-.fire100{
-    background-color: #00658C;
-}
-
-.fire400:hover{
-    margin-left: 1cm;
-}
-
-.fire500:hover{
-    margin-left: 1cm;
-}
-
-.boots102:hover{
-    transform-style: preserve-3d;
-    transform: rotateX(10deg) rotateY(-39deg) translateZ(-61px) translateX(-50px) translateY(-11px);
-    transform-origin: left;
-    transition: 1s;
-    border-right: 8px solid#7fc027;
-
-}
 
 .army-one:hover{
     margin-right: 1cm;
