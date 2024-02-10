@@ -37,6 +37,7 @@ header{
     border-bottom: 1px solid grey;
     position: fixed;
     width: 100%;
+    z-index: 5;
 }
 
 .vicky101{
@@ -84,8 +85,10 @@ header{
     color: white;
     border: 1px solid rgb(255,196,39);
     /* padding: 3px; */
-    border-radius:2px;
+    border-radius:5px;
     margin-right: 10px;
+    margin-top:20px;
+    margin-bottom: 20px;
 }
 main{
     grid-area: main;
@@ -357,6 +360,7 @@ section2{
 .boots301{
     /* background-color: rgb(127,192,39); */
     width: 32%;
+    height: 100%;
     /* padding-top: 4cm; */
 
 }
@@ -389,12 +393,15 @@ section2{
     border-bottom: 1px solid black;
     background-color: #7fc027;
     padding: 20px 0;
+    /* margin-bottom: 20px; */
 }
 
 .boots303{
     padding-top: 2cm;
     background-color: #7fc027;
     height: 50%;
+    /* margin-bottom: 2cm; */
+
 }
 
 .boots303 h5{
@@ -494,15 +501,31 @@ section3{
 }
 .get201{
     margin-top: 60px;
+    overflow: hidden;
+    height: 150px;
 }
 
 .get201 p{
     color: white;
     font-size: 40px;
     font-weight: lighter;
-    padding-top: 2cm;
+    /* padding-top: 2cm; */
 }
 
+.get201:hover .get201-one{
+    display: none;
+}
+
+.get201-two{
+    top: 180%;
+    position: relative;
+    transition: 0.5s;
+    height: 50%;
+}
+
+.get201:hover .get201-two{
+    top:0;
+}
 .get301{
     width: 50%;
     background-color: rgb(151,33,105);
@@ -523,7 +546,9 @@ section3{
     width: 100%;
     height: 30.3%;
     border-bottom: 1px solid black;
+    overflow: hidden;
 }
+
 .get305 h1{
     color: white;
     font-size: 35px;
@@ -536,17 +561,47 @@ section3{
 
 .get303 p{
     color: white;
-    padding: 3cm;
-    font-size: 33px;
-    margin-right: 8cm;
+    /* padding: 3cm; */
+    font-size: 30px;
+    /* margin-right: 2cm; */
 
 }
 
 .get304 p{
     color: white;
     padding: 2cm;
-    font-size: 33px;
-    margin-right: 8cm;
+    font-size: 30px;
+    /* margin-right: 3cm; */
+}
+
+.get303:hover .get303-one{
+    display: none;
+}
+
+.get303-two{
+    top: 180%;
+    position: relative;
+    transition: 0.9s;
+    height: 50%;
+}
+
+.get303:hover .get303-two{
+    top:0;
+}
+
+.get304:hover .get304-one{
+    display: none;
+}
+
+.get304-two{
+    top: 180%;
+    position: relative;
+    transition: 0.5s;
+    height: 50%;
+}
+
+.get304:hover .get304-two{
+    top:0;
 }
 
 section4{
